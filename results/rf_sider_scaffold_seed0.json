@@ -1,0 +1,82 @@
+{
+  "model": "morgan_rf",
+  "dataset": "sider",
+  "split": "scaffold",
+  "seed": 0,
+  "n_train": 1115,
+  "n_valid": 139,
+  "n_test": 140,
+  "n_tasks": 25,
+  "valid": {
+    "per_task_auc": {
+      "Hepatobiliary disorders": 0.7349397590361445,
+      "Metabolism and nutrition disorders": 0.540303738317757,
+      "Eye disorders": 0.7014683922349428,
+      "Investigations": 0.5757121439280359,
+      "Musculoskeletal and connective tissue disorders": 0.5664835164835165,
+      "Gastrointestinal disorders": 0.5224236641221374,
+      "Social circumstances": 0.6492354740061163,
+      "Immune system disorders": 0.6692789968652038,
+      "Reproductive system and breast disorders": 0.7040084388185653,
+      "Neoplasms benign, malignant and unspecified (incl cysts and polyps)": 0.6361263736263736,
+      "General disorders and administration site conditions": 0.4379699248120301,
+      "Endocrine disorders": 0.7119708994708995,
+      "Surgical and medical procedures": 0.6363157894736842,
+      "Vascular disorders": 0.5562953995157385,
+      "Blood and lymphatic system disorders": 0.6826788218793829,
+      "Skin and subcutaneous tissue disorders": 0.6208955223880597,
+      "Congenital, familial and genetic disorders": 0.6005469755469756,
+      "Infections and infestations": 0.5283751493428913,
+      "Respiratory, thoracic and mediastinal disorders": 0.5869639210347175,
+      "Psychiatric disorders": 0.6095983662355344,
+      "Renal and urinary disorders": 0.6327020202020203,
+      "Pregnancy, puerperium and perinatal conditions": 0.5768817204301075,
+      "Ear and labyrinth disorders": 0.6275890637945318,
+      "Cardiac disorders": 0.6865384615384615,
+      "Injury, poisoning and procedural complications": 0.5410369984366857
+    },
+    "macro_auc_all": 0.6134535812616206,
+    "macro_auc_organ": 0.6187689699852057,
+    "n_tasks_all": 25
+  },
+  "test": {
+    "per_task_auc": {
+      "Hepatobiliary disorders": 0.6281658496732027,
+      "Metabolism and nutrition disorders": 0.6198753296571566,
+      "Eye disorders": 0.7517872161480235,
+      "Investigations": 0.7509107468123861,
+      "Musculoskeletal and connective tissue disorders": 0.6922166321396864,
+      "Gastrointestinal disorders": 0.7400339270568279,
+      "Social circumstances": 0.6115177195685669,
+      "Immune system disorders": 0.5751459761360751,
+      "Reproductive system and breast disorders": 0.6889991728701406,
+      "Neoplasms benign, malignant and unspecified (incl cysts and polyps)": 0.6092621259029929,
+      "General disorders and administration site conditions": 0.7724609374999999,
+      "Endocrine disorders": 0.6335358796296295,
+      "Surgical and medical procedures": 0.5254536290322581,
+      "Vascular disorders": 0.5894687791239516,
+      "Blood and lymphatic system disorders": 0.7223631367575565,
+      "Skin and subcutaneous tissue disorders": 0.6156716417910448,
+      "Congenital, familial and genetic disorders": 0.5316484517304189,
+      "Infections and infestations": 0.7406702208682407,
+      "Respiratory, thoracic and mediastinal disorders": 0.6475694444444444,
+      "Psychiatric disorders": 0.6268280987772716,
+      "Renal and urinary disorders": 0.6719786096256685,
+      "Pregnancy, puerperium and perinatal conditions": 0.6974431818181818,
+      "Ear and labyrinth disorders": 0.5908898752906362,
+      "Cardiac disorders": 0.6757774538386783,
+      "Injury, poisoning and procedural complications": 0.6355287326161112
+    },
+    "macro_auc_all": 0.6538081107523661,
+    "macro_auc_organ": 0.6627737003805909,
+    "n_tasks_all": 25,
+    "macro_auc_all_ci95": [
+      0.6063679430275143,
+      0.6952144409385486
+    ],
+    "macro_auc_organ_ci95": [
+      0.6136965124391329,
+      0.70672784941415
+    ]
+  }
+}
