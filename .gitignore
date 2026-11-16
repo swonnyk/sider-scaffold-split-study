@@ -1,0 +1,11 @@
+# data is re-created by prepare_data.py
+data/raw/
+data/processed/
+
+# python / notebook artifacts
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+
+# archives used only to move files in and out of Colab
+*.zip
